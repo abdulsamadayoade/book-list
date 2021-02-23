@@ -37,7 +37,7 @@ body {
 
 .container {
     padding: 3rem;
-    max-width: 30rem;
+    max-width: 60rem;
 }
 
 h1 {
@@ -70,4 +70,9 @@ input[type="submit"] {
     padding: 1.5rem;
     color: #fff;
     height: initial;
+}
+
+th {
+    border: 1px solid red;
+    padding: 0 5rem;
 }
