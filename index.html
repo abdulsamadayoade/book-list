@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book List App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,21 +14,21 @@
         <form action="" id="book-form">
             <div>
                 <label for="title">Title</label>
-                <input type="text" id="title">
+                <input type="text" id="title" class="u-full-width">
             </div>
             <div>
                 <label for="author">Author</label>
-                <input type="text" id="author">
+                <input type="text" id="author" class="u-full-width">
             </div>
             <div>
                 <label for="isbn">ISBN</label>
-                <input type="text" id="isbn">
+                <input type="text" id="isbn" class="u-full-width">
             </div>
             <div>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="u-full-width">
             </div>
         </form>
-        <table>
+        <table class="u-full-width">
             <thead>
                 <tr>
                     <th>Title</th>
@@ -39,6 +40,6 @@
             <tbody id="book-list"></tbody>
         </table>
     </div>
-    <script src="appes6.js"></script>
+    <script src="js/appes6.js"></script>
 </body>
 </html>
