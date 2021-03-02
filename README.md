@@ -7,4 +7,4 @@ It's a mini project I built while learning javascript.
 
 The project is from Brad Traversy Javascript course on Udemy.
 
-Live URL = 
+Live URL = https://abdulsamad.xyz/book-list
